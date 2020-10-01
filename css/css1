@@ -1,0 +1,4 @@
+h1 {color: violet
+	h2 {color: indigo;
+		size: 15px}
+	p {background-color: pink}
