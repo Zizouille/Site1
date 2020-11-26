@@ -1,0 +1,46 @@
+@font-face {
+ font-family: "bold font";
+ src: local("/fonts/theboldfont.ttf") format("ttf");
+}
+body {
+	background-image: url("fond.jpg");
+	padding: 3%;
+}
+.blanc {
+	background-color: white;
+	padding: 5%;
+	display: flex;
+}
+.main {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+li {
+	margin: 10px 0;
+}
+h1 {
+	font-size: 60px;
+	font-family  :'Staatliches', cursive;
+	font-weight: 700;
+}
+.image-ronde {
+	border-radius: 100%;
+}
+h2 {
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+}
+h3 {
+	font-family: 'Lora' , serif
+}
+p  {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+}
+li {	
+	font-family: 'Lora', serif;
+	font-weight: 400;
+}
